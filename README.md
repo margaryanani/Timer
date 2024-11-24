@@ -29,7 +29,19 @@ You only need 'timer.py' file for this project.
     
     `s = get_positive_int("Enter seconds: ")`
     
-    `h` (hour), `m` (minute), `s` (second) give the prompts to the user and also activate the `get_positive_int(prompt)` function.
+    `h` (hour), `m` (minute), `s` (second) give the prompts to the user by activating the `get_positive_int(prompt)` function.
+3. The (1) and (2) rearrange the timer.
+
+   For example if the user enters 120 seconds, the program converts it to 2 minutes.
+
+   The same goes for minutes.
+
+4. The third while loop is where the countdown starts.
+   
+   The timer updates the display in place without printing a new line for each second. It continuously overwrites the previous line on the console using `sys.stdout.write` and `sys.stdout.flush`.
+
+   
+   
 
 
 
